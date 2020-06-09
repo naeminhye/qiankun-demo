@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purehtml Example</title>
+    <script src="//cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+      html,
+      body,
+      #root {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .normal {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+      }
+
+      #hello {
+        color: black;
+        font-size: 64px;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="normal">
+      <span id="hello"></span>
+    </div>
+    <script src="./entry.js" entry></script>
+  </body>
+</html>

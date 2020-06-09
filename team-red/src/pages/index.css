@@ -1,0 +1,13 @@
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  background-color: darkred;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello {
+  color: white;
+}
